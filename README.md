@@ -8,3 +8,19 @@
 <img width="100%" src="./public/img/presentation-img-2.png" alt="Presentation-2"/>
 
 <img width="100%" src="./public/img/presentation-img-2.png" alt="Presentation-3"/>
+
+Acquired learning
+
+-Present data dynamically in this case Pokemons.
+
+-Use of MVC for pages.
+
+-Creation of Pokemons with a database implementing their characteristics
+
+-Modeling of a page dedicated to learning
+
+-The use of PHP in a complex page.
+
+-Use of and consumption of apis in PHP with Curl,
+Database management.
+
