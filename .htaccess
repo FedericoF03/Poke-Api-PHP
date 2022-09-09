@@ -1,0 +1,10 @@
+Options -Indexes
+Options +FollowSymLinks
+ErrorDocument 404 /proyectos/Pokeapi/Views/Errors/Error404.php
+ErrorDocument 403 /proyectos/Pokeapi/Views/Errors/Error403.php
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?r=$1&%{QUERY_STRING} [L]
