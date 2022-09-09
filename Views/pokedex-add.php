@@ -50,6 +50,7 @@
                         <input type="hidden" name="crud" value="set">
                     </div>
                 </div>   
+                <p class="warning">Adding the evolution chain separates the names with "," and in the order you want them, apply the same in the future</p>
             </form>
         </div>';
         print($template);
