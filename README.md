@@ -23,7 +23,3 @@ Acquired learning
 
 -Use of and consumption of apis in PHP with Curl,
 Database management.
-<<<<<<< HEAD
-=======
-
->>>>>>> 8a49da406594847d834655beb08a475a48470602
