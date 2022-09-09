@@ -36,6 +36,7 @@
                     <input class="add_type" type="number" min="1" max="255" name="special_defense" placeholder="Special defense*" required>
                     <input class="add_type" type="number" min="1" max="255" name="speed" placeholder="Speed*" required>
                     <input class="add_i" type="file" accept="image/png, image/jpeg, image/jpg" name="image" required>
+                    <p>Adding the evolution chain separates the names with "," and in the order you want them, apply the same in the future</p>
                     <input  type="text" name="pokes_chain" placeholder="Poke chain add">
                     <div>
                         <input type="checkbox" id="l" name="is_legendary">
