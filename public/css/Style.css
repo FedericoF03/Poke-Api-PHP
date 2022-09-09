@@ -645,6 +645,14 @@ option:hover {
     min-width: 150px;
 }
 
+.warning {
+    background-color: #fd4c4c;
+    color: white;
+    padding: 5px;
+    position: relative;
+    border-radius: 5px;
+    bottom: 20px;
+}
 
 /* footer */
 
