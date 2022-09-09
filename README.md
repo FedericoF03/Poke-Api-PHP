@@ -7,7 +7,7 @@
 
 <img width="100%" src="./public/img/presentation-img-2.png" alt="Presentation-2"/>
 
-<img width="100%" src="./public/img/presentation-img-2.png" alt="Presentation-3"/>
+<img width="100%" src="./public/img/presentation-img-3.png" alt="Presentation-3"/>
 
 Acquired learning
 
