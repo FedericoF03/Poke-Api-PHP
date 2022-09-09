@@ -646,6 +646,15 @@ option:hover {
     min-width: 150px;
 }
 
+.warning {
+    background-color: #fd4c4c;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 5px;
+}
+
 /* footer */
 
 .conteiner_footer {
