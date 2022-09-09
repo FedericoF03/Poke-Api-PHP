@@ -601,6 +601,7 @@ option:hover {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 15px;
 }
 
 .add_i {
