@@ -1,10 +1,10 @@
 <?php 
 
 class PokedexDb {
-    private $host = 'localhost';
-    private $user = 'root';
-    private $db_name = 'pokemons';
-    private $pass = '*****';  /* Censurado por seguridad */
+    private $host = 'bcvtanquc4e5oru0kyzs-mysql.services.clever-cloud.com';
+    private $user = 'uvyw2c4bgg0eiycv';
+    private $db_name = 'bcvtanquc4e5oru0kyzs';
+    private $pass = 'NM7G8vyALQQswLSBPYNM';  /* Censurado por seguridad */
     private $query;
     protected $rows = array();
 
