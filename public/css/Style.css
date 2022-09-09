@@ -596,7 +596,7 @@ option:hover {
     max-width: 500px;
     width: 80%;
     margin: auto;
-    background-color: red;
+    background-color: #e93b3b;
     padding: 23px;
     text-align: center;
     flex-wrap: wrap;
@@ -619,6 +619,7 @@ option:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(90deg, rgba(255,0,0,0.8953956582633054) 25%, rgba(0,0,0,1) 50%, rgba(255,255,255,0.8141631652661064) 75%);
 }
 
 .conteiner_save {
