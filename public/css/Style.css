@@ -615,7 +615,6 @@ option:hover {
 }
 
 .conteiner_form {
-    height: 80vh;
     overflow: auto;
     display: flex;
     align-items: center;
