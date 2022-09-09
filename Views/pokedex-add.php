@@ -5,7 +5,6 @@
         $Arraypoke = $poke->get_query();
         $template =
         '<div class="conteiner_form">
-            <p class="warning">Adding the evolution chain separates the names with "," and in the order you want them, apply the same in the future</p>
             <form method="post" enctype="multipart/form-data">
                 <div  class="add">
                     <h2 class="add_title">Add Pokemon</h2>
