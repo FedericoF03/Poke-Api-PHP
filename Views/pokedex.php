@@ -145,9 +145,7 @@
                     array_push($Arraypokemonsnew, $data);
                 } 
             }
-        } else foreach( $Arraypokemonsold as $data ) { 
-            array_push($Arraypokemonsnew, $data); 
-        }
+        } else foreach( $Arraypokemonsold as $data ) { array_push($Arraypokemonsnew, $data); }
                 
         $template .='
         <div class="conteiner_cards">';

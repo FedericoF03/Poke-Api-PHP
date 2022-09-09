@@ -289,6 +289,7 @@ option:hover {
     gap: 7px;
     background-color: rgb(33 41 62);
     padding: 5px 10px;
+    margin: auto;
     border-radius: 50px;
     align-items: center;
 }

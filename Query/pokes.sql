@@ -34,8 +34,3 @@ CREATE TABLE IF NOT EXISTS types (
     types VARCHAR(50) NULL
 );
 
-DROP TABLE pokemons, types;
-SELECT p.name, p.weight, p.height, p.types, p.types2, p.abilities, p.abilities2, p.hp, p.attack, p.defense, p.special_attack, p.special_defense, p.speed, p.type_img, p.name_img, p.image, p.date_img, p.pokes_chain, p.is_legendary, p.is_mythical, t.types FROM pokemons as p
-INNER JOIN types as t ON p.types = t.id
-INNER JOIN types ON p.types2 = t.id
-WHERE p.name = "Agumon";
