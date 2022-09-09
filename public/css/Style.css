@@ -578,6 +578,9 @@ option:hover {
     text-align: center;
 }
 
+.white {
+    color: #ffffff;
+}
 
 /*Pokedex-add */
 
@@ -774,7 +777,7 @@ option:hover {
     }
 
     .small_types {
-        width: 50%;
+        height: 100px;
     }
 
     .conteiner_arrows-box {

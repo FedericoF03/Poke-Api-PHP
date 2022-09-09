@@ -25,9 +25,9 @@
                     <div class="box_data">
                     <p class="poke-info_data-name">Data</p>
                         <div class="poke-info_data">
-                            <p>Altura:</p>
+                            <p class="white">Altura:</p>
                             <p>'.$pokedata['height'].'M</p>
-                            <p>Ancho:</p>
+                            <p class="white">Ancho:</p>
                             <p>'.$pokedata['weight'].'Kg</p>';
     if(!empty($pokedataspecie['mythical'])) {
         if($pokedataspecie['legendary']) $template .= '
@@ -51,8 +51,8 @@
     for($n = 0; $n < count($pokedata['abilities']); $n++) {       
         $template .= "      <p>". $pokedata['abilities'][$n]['ability']['name'] . "</p>";
         $pokedata['abilities'][$n]['is_hidden']
-        ?$template .= "     <p> Ability ocult</p>"
-        :$template .= "     <p> Ability </p>";
+        ?$template .= "     <p class='white'> Ability ocult</p>"
+        :$template .= "     <p class='white'> Ability </p>";
     }
     $template .= '      </div>
                     </div>
